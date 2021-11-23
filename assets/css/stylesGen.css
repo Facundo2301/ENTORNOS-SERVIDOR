@@ -1,0 +1,286 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    background: url("../img/fondo.jpg");
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+
+}
+
+.header{
+    background-color: #000000;
+    color: #E2E2E2;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+} 
+
+.header h2{
+    padding: 1%;
+    margin-left: 1.5%;
+}
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #E2E2E2;
+    text-align: center;
+}
+.container{
+    display: flex;
+    padding-top: 2%;
+}
+
+.box1{     
+    width: 50%;
+    padding: left: 2%;
+    display: flex;
+    flex-direction: column;
+    height: 50;
+
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.tabla th{
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 2%;
+    border-radius: 10px;
+}
+.tabla td{
+    background-color: #ffffff60;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    padding: 2%;
+    width: 200px;
+    border-radius: 10px;
+}
+.tabla{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    text-align: center;
+    margin-right:10%;
+    margin-top:5%;
+    
+    margin-bottom: 1%;
+}
+.datos{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:10%;
+    font-size: 24px; 
+    margin-bottom: 2%;
+    background-color: #ffffff60;
+    border-radius:20px;
+    padding-top:50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    border: 2px solid grey;
+    max-width: 250px;
+    min-width: 100px;
+}
+.datos2{
+    margin-left:20%;
+    display: flex;
+    font-size: 24px; 
+    margin-bottom: 2%;
+    background-color: #ffffff60;
+    border-radius:20px;
+    padding-top:50px;
+    padding-right: 60px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    border: 2px solid grey;
+    width: 500px;
+    flex-direction: column;
+}
+
+.datos2 p{
+    margin: 0;
+}
+.datos2 div{
+    display: flex;
+    margin-right: 10%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.datos2 input{
+    border-radius: 15px;
+}
+.datos3{
+    margin-left:20%;
+    display: flex;
+    font-size: 24px; 
+    margin-bottom: 2%;
+    background-color: #ffffff60;
+    border-radius:20px;
+    padding-top:50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    border: 2px solid grey;
+    width: 330px;
+    flex-direction: column;
+}
+.datos3 div{
+    display: flex;
+    margin-right: 10%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.datos3 input{
+    border-radius: 15px;
+}
+.box1down{
+    display: flex;
+    justify-content: space-between;
+}
+.formEditarUsu{
+
+}
+.boton{
+    background-color:#e74c3c;
+    outline: none;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    text-transform:uppercase;
+    margin-top:5px;
+    border-radius:15px;
+    cursor:pointer;
+    position:relative;
+    margin-right: 90%;
+}
+.listaVehiculo{
+    height: 6%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 7.5%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: fit-content;
+
+
+}
+.usuario{
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.aniadir{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+.nom{
+    margin-bottom: 7%;
+}
+.ape{
+    margin-bottom: 7%;
+}
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #95a5a6;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 18px;
+    border:1px solid #ecf0f1;
+    background:#ecf0f1;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+    border-radius: 10px;
+    float: left;
+}
+input[type="date"]:active {
+    color: #2c3e50;
+}
+input[type="date"]:-webkit-calendar-picker-indicator {
+    color: red;
+}
+
+.tabla2{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    text-align: center;
+    width: 500px;
+    margin-top:5%;
+    margin-left: 20%;
+}
+
+.tabla2 td{
+    background-color: #ffffff60;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    padding: 2%;
+    width: 200px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.botonserv{
+    background-color:#e74c3c;
+    outline: none;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    text-transform:uppercase;
+    margin-top:5px;
+    border-radius:15px;
+    cursor:pointer;
+    position:relative;
+    margin-left: 20%;
+}
+.mensajeError{
+    color: #ba3939;
+    background: #ffe0e0;
+    border: 1px solid #a33a3a;
+    display: flex;
+    justify-content: center;
+}
+i.ico {
+    display: inline-block;
+    width: fit-content;
+    text-align: center; 
+    font-style: normal;
+    font-weight: bold;
+}
+.mensaje{
+    color: #2b7515;
+    background: #ecffd6;
+    border: 1px solid #617c42;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#botonMsg{
+    border-radius:7px;
+    margin-left: 10px;
+    height: fit-content;
+}
